@@ -2,6 +2,7 @@ import utilities from "./components/utilities.js";
 import bread from "./bread.js";
 import cheese from './cheese.js';
 import meat from './meat.js';
+import condiment from './condiments.js';
 
 const makeOrder = (items) => {
     let stringDom = '';
@@ -14,9 +15,10 @@ const makeOrder = (items) => {
 const createOrderEvent = () => {
     let emptyArr = [];
     const selectedBread = bread.getSelectedBread();
+    const selectedContiment = condiment.getSelectedCondiments();
     const selectedCheeses = cheese.getSelectedCheeses();
     const selectedMeat = meat.getSelectedMeat();
-    emptyArr = selectedBread.concat(selectedCheeses, selectedMeat);
+    emptyArr = selectedBread.concat(selectedCheeses, selectedMeat, selectedContiment);
     makeOrder(emptyArr);
 }
 
