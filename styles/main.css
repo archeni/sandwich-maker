@@ -1,0 +1,9 @@
+body {
+    background-image: url("../assets/images/sandwich\ wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food {
+    padding: 3px;
+}
