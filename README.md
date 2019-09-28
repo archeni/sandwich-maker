@@ -1,6 +1,10 @@
 # sandwich-maker
 
-## Screenshot
+# Description
+* Let a user choose from a list of items to eat. Show the price of just those items, and show the cost of those items.
+
+## Screenshots
+![sandwich maker preview](https://raw.githubusercontent.com/archeni/sandwich-maker/master/screenshots/mainview.png)
 
 ## How To Run
 * Clone this GitHub Repo
