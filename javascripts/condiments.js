@@ -1,10 +1,10 @@
 import utilities from './components/utilities.js';
 
 const condiments = [
-    {id: "condiments1", name: "bacon", price: .50},
-    {id: "condiments2", name: "A1 sauce", price: 0},
-    {id: "condiments3", name: "barbeque sauce", price: .75},
-    {id: "condiments4", name: "ketchup", price: .35},
+    {id: "condiments1", name: "bacon", price: 50},
+    {id: "condiments2", name: "A1 sauce", price: 46},
+    {id: "condiments3", name: "barbeque sauce", price: 75},
+    {id: "condiments4", name: "ketchup", price: 35},
 ]
 
 const getSelectedCondiments = () => {

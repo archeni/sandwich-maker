@@ -7,3 +7,13 @@ body {
 .food {
     padding: 3px;
 }
+
+#final-order {
+    background-color: beige;
+    border: 1px solid black;
+}
+
+#final-cost {
+    background-color: beige;
+    border: 1px solid black;
+}
