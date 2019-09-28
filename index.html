@@ -11,16 +11,22 @@
 <body>
     <h1 class="text-center">Sandwich Maker</h1>
     <div class="container">
-        <div class="row col">
-            <div id="bread-counter" class="food"></div>
+        <div class="row d-flex justify-content-center">
+            <div id="bread-counter" class=" food"></div>
             <div id="meat-counter" class="food"></div>
             <div id="cheese-counter" class="food"></div>
             <div id="condiment-counter" class="food"></div>
             <div id="veggie-counter" class="food"></div>
         </div>
-        <div class="row col">
-            <div id="final-order"></div>
-        </div>
+        
+    </div>
+    
+    <div class="container d-flex justify-content-center">
+        <div id="final-order" class="text-center col-4"></div>
+    </div>
+
+    <div class="container d-flex justify-content-center">
+        <div id="final-cost" class="text-center col-4"></div>
     </div>
 
     <script type="module" src="./javascripts/main.js"></script>

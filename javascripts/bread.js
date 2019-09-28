@@ -4,7 +4,7 @@ const typesOfBread = [
     {id: "bread1", name: "white", price: 550},
     {id: "bread2", name: "wheat", price: 600},
     {id: "bread3", name: "italian herbs & cheese", price: 940},
-    {id: "bread4", name: "croissant", price: 1000},
+    {id: "bread4", name: "croissant", price: 100},
 ]
 
 const getSelectedBread = () => {
